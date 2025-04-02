@@ -15,6 +15,7 @@ import matplotlib.pyplot as plt
 import seaborn as sns
 from sklearn.metrics import mean_squared_error, r2_score
 from model import *
+from processes import processes
 
 
 def load_parameter_file(file_path):
