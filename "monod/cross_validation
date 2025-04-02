@@ -519,7 +519,7 @@ if __name__ == "__main__":
         return data
     
     # Example parameter file path
-    param_file = r"C:\Users\rodig\OneDrive\Área de Trabalho\KS_param_all.txt"
+    param_file = 'KS_param_all.txt'
     data = load_parameter_file(param_file)
     
     # Example processes definition (would be replaced with your actual data)
