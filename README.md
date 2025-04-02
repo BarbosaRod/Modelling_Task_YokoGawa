@@ -9,20 +9,20 @@ Repository Structure
 
 monod folder - 
 
-- KS_param_all.txt                                    # Posterior samples from Bayesian inference
-- cross_validation.py                                 # Leave-one-out cross-validation
-- fitting.py                                          # MCMC setup and parameter estimation
-- inference.py                                        # Posterior loading, summaries, and visualization
-- model.py                                            # Core Monod ODE model with feeding logic
-- optimisation                                        # Bayesian optimization of feed parameters
-- sensitivity_analysis                                # Uncertainty and sensitivity analysis
-- processes.py                                        # Process data (1-5)
+- KS_param_all.txt                                    — Posterior samples from Bayesian inference
+- cross_validation.py                                 — Leave-one-out cross-validation
+- fitting.py                                          — MCMC setup and parameter estimation
+- inference.py                                        — Posterior loading, summaries, and visualization
+- model.py                                            — Core Monod ODE model with feeding logic
+- optimisation                                        — Bayesian optimization of feed parameters
+- sensitivity_analysis                                — Uncertainty and sensitivity analysis
+- processes.py                                        — Process data (1-5)
 
 -------------------------------------------------------------------------------
 Overview
 -------------------------------------------------------------------------------
 
-The project is centered around a Monod-based ODE model for simulating substrate consumption S and metabolite production X in a fed-batch bioreactor.
+The project is centered around a Monod-based (MivhaODE model for simulating substrate consumption S and metabolite production X in a fed-batch bioreactor.
 
 It includes:
 - Monod growth kinetics
