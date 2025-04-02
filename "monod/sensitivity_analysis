@@ -18,6 +18,7 @@ from SALib.sample import saltelli, morris
 from SALib.analyze import sobol, morris as morris_analyze
 from tqdm.auto import tqdm
 from model import *
+from processes import processes
 
 
 def run_sobol_analysis(proc, baseline_params, param_ranges=None, N=512, 
