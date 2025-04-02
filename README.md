@@ -27,7 +27,9 @@ It includes:
 - Monod growth kinetics
 - Fed-batch simulation using diffrax
 - Parameter estimation using hierarchical Bayesian inference (NumPyro)
+- Cross-validation with LOO approach
 - Feed strategy optimization using Bayesian optimization (skopt)
+- Sensitivity analysis (Sobol)
 
 -------------------------------------------------------------------------------
 Model Description
@@ -104,9 +106,3 @@ Requirements
 - skopt
 - scikit-learn
 - pandas
-
--------------------------------------------------------------------------------
-License
--------------------------------------------------------------------------------
-
-Proprietary – for internal or academic use only.
