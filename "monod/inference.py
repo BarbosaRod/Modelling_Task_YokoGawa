@@ -17,6 +17,7 @@ import numpyro
 import numpyro.distributions as dist
 from numpyro.infer import MCMC, NUTS
 from model import *
+from processes import processes
 
 
 
