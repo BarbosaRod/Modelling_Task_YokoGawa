@@ -7,14 +7,15 @@ This repository implements a complete modeling pipeline for fed-batch bioprocess
 Repository Structure
 -------------------------------------------------------------------------------
 
-monod/
-├── KS_param_all.txt            # Posterior samples from Bayesian inference
-├── cross_validation.py         # Leave-one-out cross-validation
-├── fitting.py                  # MCMC setup and parameter estimation
-├── inference.py                # Posterior loading, summaries, and visualization
-├── model.py                    # Core Monod ODE model with feeding logic
-├── optimisation                # Bayesian optimization of feed parameters
-├── sensitivity_analysis        # Uncertainty and sensitivity analysis
+monod folder - 
+
+KS_param_all.txt            # Posterior samples from Bayesian inference
+cross_validation.py         # Leave-one-out cross-validation
+fitting.py                  # MCMC setup and parameter estimation
+inference.py                # Posterior loading, summaries, and visualization
+model.py                    # Core Monod ODE model with feeding logic
+optimisation                # Bayesian optimization of feed parameters
+sensitivity_analysis        # Uncertainty and sensitivity analysis
 
 -------------------------------------------------------------------------------
 Overview
