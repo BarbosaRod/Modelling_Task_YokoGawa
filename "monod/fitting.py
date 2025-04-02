@@ -14,7 +14,7 @@ import jax.random as random
 import matplotlib.pyplot as plt
 import seaborn as sns
 from sklearn.metrics import mean_squared_error, r2_score
-
+from model import *
 
 
 def load_parameter_file(file_path):
