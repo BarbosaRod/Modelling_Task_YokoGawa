@@ -332,7 +332,7 @@ def plot_process_specific_parameters(data, param_name="Ks", save_path=None):
 # Example usage
 if __name__ == "__main__":
     # Example code for using the utilities
-    param_file = r"C:\Users\rodig\OneDrive\Área de Trabalho\KS_param_all.txt"
+    param_file = 'KS_param_all.txt'
     data = load_parameter_file(param_file)
     medians = compute_parameter_statistics(data)
     
