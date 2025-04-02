@@ -22,7 +22,7 @@ monod folder -
 Overview
 -------------------------------------------------------------------------------
 
-The project is centered around a Monod-based (MivhaODE model for simulating substrate consumption S and metabolite production X in a fed-batch bioreactor.
+The project is centered around a Monod-based ODE model for simulating substrate consumption S and metabolite production X in a fed-batch bioreactor.
 
 It includes:
 - Monod growth kinetics
