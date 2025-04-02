@@ -54,8 +54,8 @@ Bayesian Inference
 
 Parameter estimation is performed using a hierarchical Bayesian model:
 
-- Shared across processes: μ_max, Ks
-- Process-specific: Yxs
+- Shared across processes: μ_max, Yxs
+- Process-specific: Ks
 
 Posterior samples from the MCMC run are stored in:
     KS_param_all.txt
