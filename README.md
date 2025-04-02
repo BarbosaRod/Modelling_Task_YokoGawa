@@ -9,13 +9,13 @@ Repository Structure
 
 monod folder - 
 
-KS_param_all.txt            # Posterior samples from Bayesian inference
-cross_validation.py         # Leave-one-out cross-validation
-fitting.py                  # MCMC setup and parameter estimation
-inference.py                # Posterior loading, summaries, and visualization
-model.py                    # Core Monod ODE model with feeding logic
-optimisation                # Bayesian optimization of feed parameters
-sensitivity_analysis        # Uncertainty and sensitivity analysis
+- KS_param_all.txt            # Posterior samples from Bayesian inference
+- cross_validation.py         # Leave-one-out cross-validation
+- fitting.py                  # MCMC setup and parameter estimation
+- inference.py                # Posterior loading, summaries, and visualization
+- model.py                    # Core Monod ODE model with feeding logic
+- optimisation                # Bayesian optimization of feed parameters
+- sensitivity_analysis        # Uncertainty and sensitivity analysis
 
 -------------------------------------------------------------------------------
 Overview
