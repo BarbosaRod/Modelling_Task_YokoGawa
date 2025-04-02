@@ -16,6 +16,7 @@ monod folder -
 - model.py                                            # Core Monod ODE model with feeding logic
 - optimisation                                        # Bayesian optimization of feed parameters
 - sensitivity_analysis                                # Uncertainty and sensitivity analysis
+- processes.py                                        # Process data (1-5)
 
 -------------------------------------------------------------------------------
 Overview
