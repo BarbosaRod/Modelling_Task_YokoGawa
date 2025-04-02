@@ -1,0 +1,27 @@
+# Core Scientific Computing
+numpy
+jax
+jaxlib
+
+# Differential Equations and Bayesian Inference
+diffrax
+numpyro
+
+# Optimization and Sensitivity Analysis
+scikit-optimize
+SALib
+
+# Data Visualization and Manipulation
+matplotlib
+seaborn
+pandas
+plotly
+
+# Additional Scientific Tools
+scikit-learn
+tqdm
+
+# Optional: Development and Jupyter Support
+pytest
+ipython
+jupyter
