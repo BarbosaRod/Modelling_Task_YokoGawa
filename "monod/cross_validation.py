@@ -14,7 +14,7 @@ import pandas as pd
 import seaborn as sns
 from sklearn.metrics import mean_squared_error, r2_score
 from model import *
-
+from processes import processes
 
 def perform_leave_one_out_cv(processes, parameter_data, medians=None):
     """
