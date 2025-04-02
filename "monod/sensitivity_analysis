@@ -17,8 +17,7 @@ import pandas as pd
 from SALib.sample import saltelli, morris
 from SALib.analyze import sobol, morris as morris_analyze
 from tqdm.auto import tqdm
-
-from monod_model import simulate_monod
+from model import *
 
 
 def run_sobol_analysis(proc, baseline_params, param_ranges=None, N=512, 
